@@ -1,7 +1,7 @@
 # Sublime-Text---RegReplace-plugins
 Some useful plugins for the [Sublime Text](https://www.sublimetext.com) and his [RegReplace](https://github.com/facelessuser/RegReplace) package.
 
-I do created two plugins for Sublime Text called (standalone) and they counterparts for the RegReplace package of SublimeText as follows:
+I do created two plugins, each plugin with two variants: One called (standalone) for Sublime Text and another version that do the same thing but integrated into RegReplace package.
 
 1. Summarize Tools used in Gcode.
 - This plugin will write in the header of the Gcode file the Tools used into the file like a summary of used tools
