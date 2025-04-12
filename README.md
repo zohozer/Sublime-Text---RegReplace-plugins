@@ -11,6 +11,7 @@ I do created two plugins, each plugin with two variants: One called (standalone)
 H DX=10.5 DY=6.5 -A C=0 T=0 R=99 *IN /"DEF" BX=-.25 BY=-.25 BZ=0 ;PGM:ARCHCUT
 ;Part -ABC
 ;Part#-123
+; TimeNowHere
 ;
 ;#60-052 DOWN SPRIAL 1/2" CHIPBREAKER
 XG0 X=-.25 Y=-1 Z=.1 E=0 V=100 S=10000 D=0 T=102 F=1 C=0
@@ -47,3 +48,16 @@ N X=0 Y=0 V=100000
 2. Replace the TimeNowHere occurencies with the actual date and Time of the computer.
 - Finds all occurencies of the "TimeNowHere" in the file
 - Replaces them with the actual Date/Time in this form: Saturday 2025/04/12 (09:42:27)
+
+After using this tools the file should look like this:
+
+```
+H DX=10.5 DY=6.5 -A C=0 T=0 R=99 *IN /"DEF" BX=-.25 BY=-.25 BZ=0 ;PGM:ARCHCUT
+;Part -ABC
+;Part#-123
+; Tools: 0, 102, 103;
+; TimeNowHere
+;
+;#60-052 DOWN SPRIAL 1/2" CHIPBREAKER
+XG0 X=-.25 Y=-1 Z=.1 E=0 V=100 S=10000 D=0 T=102 F=1 C=0
+```
