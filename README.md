@@ -60,4 +60,6 @@ H DX=10.5 DY=6.5 -A C=0 T=0 R=99 *IN /"DEF" BX=-.25 BY=-.25 BZ=0 ;PGM:ARCHCUT
 ;
 ;#60-052 DOWN SPRIAL 1/2" CHIPBREAKER
 XG0 X=-.25 Y=-1 Z=.1 E=0 V=100 S=10000 D=0 T=102 F=1 C=0
+ . . . . . . . . . .
+etc.
 ```
