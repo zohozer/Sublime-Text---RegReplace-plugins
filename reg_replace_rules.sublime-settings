@@ -1,0 +1,18 @@
+{
+  "replacements": {
+    "find_gcode_tools": {
+      "find": "(?i)T\\s*=?[\\s;]*(\\d+)",
+      "greedy": true,
+      "scope_filter": ["text.plain"],
+      "find_only": true,
+      "no_edit": true
+    },
+    "replace_time_now_here": {
+      "find": "(?i);?\\s*TimeNowHere\\s*(?:;)?",
+      "greedy": true,
+      "scope_filter": ["text.plain"],
+      "find_only": true,
+      "no_edit": true
+    }
+  }
+}

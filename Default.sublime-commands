@@ -1,0 +1,25 @@
+[
+  {
+    "caption": "G-code: Summarize Tools",
+    "command": "summarize_gcode_tools"
+  },
+  {
+    "caption": "RegReplace: Find G-code Tools",
+    "command": "reg_replace",
+    "args": {
+      "replacements": ["find_gcode_tools"]
+    }
+  },
+  {
+    "caption": "G-code: Summarize Tools (Standalone)",
+    "command": "summarize_gcode_tools_standalone"
+  },
+  {
+    "caption": "G-code: Replace TimeNowHere",
+    "command": "replace_time_now_here"
+  },
+  {
+    "caption": "G-code: Replace TimeNowHere (Standalone)",
+    "command": "replace_time_now_here_standalone"
+  }
+]
