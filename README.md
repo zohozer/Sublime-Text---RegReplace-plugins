@@ -1,5 +1,5 @@
 # Sublime-Text---RegReplace-plugins
-Some useful plugins for the [Sublime Text](https://www.sublimetext.com) - [RegReplace](https://github.com/facelessuser/RegReplace) plugin.
+Some useful plugins for the [Sublime Text](https://www.sublimetext.com) and his [RegReplace](https://github.com/facelessuser/RegReplace) package.
 
 I do created two plugins for Sublime Text called (standalone) and they counterparts for the RegReplace package of SublimeText as follows:
 
